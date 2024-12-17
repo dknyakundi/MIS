@@ -1,7 +1,7 @@
 import express, { NextFunction, Request, Response } from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import { ErrorMiddleware } from "./utils/middleware/error";
+import { ErrorMiddleware } from "./middleware/error";
 
 require("dotenv").config();
 
